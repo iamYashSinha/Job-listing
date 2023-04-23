@@ -1,0 +1,23 @@
+{
+  "indexes": [
+    {
+      "collectionGroup": "Job-lisitng",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "location",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "type",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "postedOn",
+          "order": "DESCENDING"
+        }
+      ]
+    }
+  ],
+  "fieldOverrides": []
+}
